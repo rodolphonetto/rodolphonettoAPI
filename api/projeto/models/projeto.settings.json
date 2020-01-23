@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "projetos",
   "info": {
     "name": "projeto"
   },
@@ -29,8 +31,9 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "slug": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "projetos"
+  }
 }
